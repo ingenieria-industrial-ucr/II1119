@@ -111,22 +111,3 @@ Este modelo es universal tanto en informática como en manufactura. El objetivo 
 | **Salida (Output)**   | Información útil, reportes, alertas, gráficos.                         | Producto terminado, subensamble listo, desperdicio controlado.      |
 
 Como ingenieros, diseñamos algoritmos para que la "Salida" sea información de valor que permita tomar decisiones o controlar el proceso físico.
-
-
-## **Actividad Práctica**
-
-**Caso de Estudio: El Operador de Calidad**
-
-**Contexto:**
-
-En una línea de embotellado, existe un punto de control de calidad visual. Un sistema de visión (simulado aquí por nosotros) debe tomar decisiones sobre cada botella que pasa por la banda.
-
-**Reglas de Negocio:**
-
-1. Si la botella está **vacía**, se debe activar un brazo que la retira a la tolva de reciclaje.
-
-2. Si la botella está **llena**, se debe verificar si tiene tapa.
-
-   - Si **no tiene tapa**, se envía a reproceso.
-
-   - Si **tiene tapa**, se deja pasar al empaque final.
