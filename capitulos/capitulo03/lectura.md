@@ -56,21 +56,8 @@ El álgebra booleana no es solo un ejercicio matemático; es el lenguaje fundame
 
 Hasta ahora hemos visto fórmulas como (A AND B). Pero en la planta, los procesos se visualizan. Debemos aprender a traducir estos operadores lógicos a **Diagramas de Flujo**, utilizando el símbolo de Decisión (Rombo).
 
+![Visualizando la Lógica: De Booleanos a Diagramas](./imagenes/booleanos-diagramas.png)
 
-
-<!--<img src="./imagenes/booleanos-diagramas.png" alt="Visualizando la Lógica: De Booleanos a Diagramas" width="80%" />-->
-<div align="center">
-  <figure style="display: inline-block; text-align: left; max-width: 600px;">
-    <p style="margin: 0; font-weight: bold; font-family: sans-serif;">Figura 1</p>
-    <p style="margin: 0 0 10px 0; font-style: italic; font-family: sans-serif;">Estructura del repositorio y flujo de trabajo</p>
-    
-    <img src="./imagenes/booleanos-diagramas.png" alt="isualizando la Lógica: De Booleanos a Diagramas" width="500" />
-    
-    <figcaption style="margin-top: 8px; font-size: 0.85em; color: #555; font-family: sans-serif;">
-      <i>Nota.</i> Ejemplo de cómo se visualiza la decisión en Flowgorithm
-    </figcaption>
-  </figure>
-</div>
 
 
   Ejemplo de cómo se visualiza la decisión en Flowgorithm
