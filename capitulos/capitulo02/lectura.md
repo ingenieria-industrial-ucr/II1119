@@ -100,7 +100,7 @@ Números con decimales.
 
 Como ingenieros, a menudo asumimos que la computadora es perfecta calculando. Sin embargo, cuando trabajamos con decimales, la computadora "miente" ligeramente debido a cómo almacena los números. Es vital entender la diferencia entre **Punto Flotante** y **Decimal Exacto**.
 
-**A. Punto Flotante (**`Float`**)** Las computadoras no cuentan en base 10 (como los humanos), sino en base 2 (binario).
+**Punto Flotante (**`Float`**)** Las computadoras no cuentan en base 10 (como los humanos), sino en base 2 (binario).
 
 - **El Problema:** Hay números que son simples en base 10, pero "infinitos" en base 2. Por ejemplo, el número `0.1` (un décimo). Al igual que `1/3` en nuestra calculadora da `0.33333...` infinito, para la computadora `0.1` es una fracción binaria periódica infinita. La computadora tiene que "cortar" esa secuencia en algún punto para guardarla.
 
@@ -110,7 +110,7 @@ Como ingenieros, a menudo asumimos que la computadora es perfecta calculando. Si
 
 * **Uso en Ingeniería:** Se usan `floats` para cálculos científicos, física o simulaciones donde la velocidad es crítica y un error de 0.000000001 es aceptable (por ejemplo, medir la temperatura de un horno, donde el sensor ya tiene un error mayor que el de la computadora).
 
-**B. Decimal (**`Decimal`**)** Es un tipo de dato especial que almacena los números de forma exacta, tal como los escribimos en papel, sacrificando velocidad de procesamiento.
+**Decimal (**`Decimal`**)** Es un tipo de dato especial que almacena los números de forma exacta, tal como los escribimos en papel, sacrificando velocidad de procesamiento.
 
 - **Uso en Ingeniería:** Cálculos financieros, inventarios de alto valor o tolerancias de manufactura ultra-precisas (nano-ingeniería), donde perder un centavo o un micrón es inaceptable.
 
@@ -165,7 +165,7 @@ Lorenz describió esto con una metáfora famosa: _"El aleteo de una mariposa en 
 
 ## **Operadores: La Maquinaria de Transformación**
 
-### **A. Operadores Aritméticos**
+### **Operadores Aritméticos**
 
 - `+` (Suma), 
 
@@ -187,7 +187,7 @@ Devuelve el **residuo** de una división entera. A menudo es difícil de visuali
 - **Ejemplo 3 (Turnos):** Asignar tareas cíclicas. Si tienes 3 operarios (0, 1, 2), la tarea número `n` le toca al operario `n % 3`.
 
 
-### **B. Operadores Relacionales (De Comparación)**
+### **Operadores Relacionales (De Comparación)**
 
 Comparan dos valores y **siempre** devuelve un booleano (`True` / `False`). Son los "ojos" del algoritmo, porque nos va servir determinar si debemos realizar una acción o si debemos continuar con una repetición de procesos.
 
