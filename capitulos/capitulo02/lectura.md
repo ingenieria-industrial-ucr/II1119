@@ -1,6 +1,6 @@
 # **Datos, Operadores y la Lógica de las Decisiones**
 
-## **1. Introducción: La Materia Prima del Algoritmo**
+## **Introducción: La Materia Prima del Algoritmo**
 
 En el capítulo anterior definimos que **un proceso industrial transforma _entradas_ en _salidas_**. En el **mundo digital**, **esa materia prima** no es acero o plástico, **son datos**.
 
@@ -15,7 +15,7 @@ Para una persona profesional en Ingeniería Industrial, entender los tipos de da
 En esta semana, vamos a introducir la clasificación de estos datos, a manipularlos mediante operadores y, lo más importante, iniciamos el aprendizaje del lenguaje que nos ayudará en la toma de decisiones automáticas: el **Álgebra Booleana**, la base de todos los sistemas de control, como los  PLCs en la industria moderna entre otros elementos propios de la Ingeniería Industrial.
 
 
-## **2. Conceptos Clave**
+## **Conceptos Clave**
 
 Antes de profundizar, definamos el vocabulario técnico que nos acompañará:
 
@@ -42,7 +42,7 @@ Antes de profundizar, definamos el vocabulario técnico que nos acompañará:
 - **snake\_case:** Palabras separadas por guiones bajos (Ej: `costo_total`). **Estándar en Python**.
 
 
-## **3. Variables y Estándares**
+## **Variables y Estándares**
 
 ### **Concepto de Variable**
 
@@ -80,12 +80,12 @@ Debemos usar nombres descriptivos y seguir las convenciones del lenguaje:
 **Regla de Oro:** El código se lee más veces de las que se escribe. Un nombre claro ahorra horas de depuración.
 
 
-## **4. Tipos de Datos (La "Forma" de la Caja)**
+## **Tipos de Datos (La "Forma" de la Caja)**
 
 Elegir el **tipo de dato incorrecto** puede causar desde errores visuales hasta **catástrofes de cálculo**.
 
 
-### **1. Enteros (Integer / int)**
+### **Enteros (Integer / int)**
 
 Números sin parte decimal.
 
@@ -94,7 +94,7 @@ Números sin parte decimal.
 - **El caso "Gangnam Style":** En 2014, el video de "Gangnam Style" rompió YouTube. El contador de visitas estaba programado usando un entero de 32 bits con signo, cuyo valor máximo es 2,147,483,647. Cuando el video superó esa cifra, el contador se desbordó y empezó a mostrar números negativos. YouTube tuvo que actualizar urgentemente su arquitectura a enteros de 64 bits (que permiten trillones de visitas). _Moraleja: Subestimar el tamaño de tus datos es un riesgo de ingeniería._
 
 
-### **2. Flotantes (Float / double)**
+### **Flotantes (Float / double)**
 
 Números con decimales.
 
@@ -115,7 +115,7 @@ Como ingenieros, a menudo asumimos que la computadora es perfecta calculando. Si
 - **Uso en Ingeniería:** Cálculos financieros, inventarios de alto valor o tolerancias de manufactura ultra-precisas (nano-ingeniería), donde perder un centavo o un micrón es inaceptable.
 
 
-### **3. Cadenas de Texto (String / str)**
+### **Cadenas de Texto (String / str)**
 
 Secuencias de caracteres alfanuméricos.
 
@@ -124,7 +124,7 @@ Secuencias de caracteres alfanuméricos.
 - **Nota:** El código "123" (texto) no es igual al número 123. No puedes sumar "10" + "10", el resultado sería "1010" (concatenación), no 20.
 
 
-### **4. Booleanos (Boolean / bool)**
+### **Booleanos (Boolean / bool)**
 
 Valores de verdad lógica.
 
@@ -133,7 +133,7 @@ Valores de verdad lógica.
 - **Nota:** Si observan, muchos interruptores o botones de encendido el “logo” es una mezcla entre  0 y 1.
 
 
-### **5. Tipos Especializados y Personalizados**
+### **Tipos Especializados y Personalizados**
 
 Más allá de los básicos, existen tipos complejos:
 
@@ -144,7 +144,7 @@ Más allá de los básicos, existen tipos complejos:
 - **Objetos Personalizados:** Como ingenieros, podemos crear nuestros propios tipos. Podemos definir un tipo de dato `Pedido` que contenga dentro: fecha, cliente y lista de productos. La imaginación y la necesidad del problema son el límite.
 
 
-#### **6. La Ingeniería y la Teoría del Caos: ¿Por qué nos importa la precisión?**
+#### **La Ingeniería y la Teoría del Caos: ¿Por qué nos importa la precisión?**
 
 Podrías pensar: _"¿Qué importa un error de 0.0001 en una simulación?"_. La respuesta yace en la **Teoría del Caos**, un concepto que toda persona en ingeniería debe conocer, en especial quien trabajaba con simulaciones, como en la Ingeniería Industrial, para entender la estabilidad de los sistemas.
 
@@ -163,7 +163,7 @@ Lorenz describió esto con una metáfora famosa: _"El aleteo de una mariposa en 
 3. **Lección:** La elección del tipo de dato (`Float` vs `Decimal`) y la precisión de tus algoritmos no es un detalle técnico menor; es lo que previene que el caos se apodere de tus predicciones.
 
 
-## **5. Operadores: La Maquinaria de Transformación**
+## **Operadores: La Maquinaria de Transformación**
 
 ### **A. Operadores Aritméticos**
 
@@ -198,7 +198,7 @@ Comparan dos valores y **siempre** devuelve un booleano (`True` / `False`). Son 
 - `==` (Igual a), `!=` (Diferente de).
 
 
-## **6. Jerarquía de Operaciones**
+## **Jerarquía de Operaciones**
 
 La computadora no adivina, sigue reglas estrictas. El orden de resolución es:
 
