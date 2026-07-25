@@ -56,7 +56,7 @@ El álgebra booleana no es solo un ejercicio matemático; es el lenguaje fundame
 
 Hasta ahora hemos visto fórmulas como (A AND B). Pero en la planta, los procesos se visualizan. Debemos aprender a traducir estos operadores lógicos a **Diagramas de Flujo**, utilizando el símbolo de Decisión (Rombo).
 
-![Visualizando la Lógica: De Booleanos a Diagramas]("./imagenes/De Booleanos a Diagramas - Main.png")
+![Visualizando la Lógica: De Booleanos a Diagramas](imagenes/booleanos-diagramas.svg)
 
 
 
