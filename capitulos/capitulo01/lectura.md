@@ -4,7 +4,7 @@
 
 Bienvenidas y bienvenidos al curso _Fundamentos para Tecnologías Digitales_. En el entorno actual, la ingeniería industrial no se limita a la gestión física de la planta; requiere integrar herramientas computacionales para modelar, analizar y mejorar los procesos productivos.
 
-Es fundamental hacer una distinción desde el primer día: 
+Es fundamental hacer una distinción desde el primer día: 
 
 **Programar no es lo mismo que codificar**
 
@@ -14,7 +14,10 @@ Es fundamental hacer una distinción desde el primer día:
 - **Programar** \
   Es un ejercicio mental de análisis ordenado. Es la capacidad de entender un problema, desglosarlo y diseñar una solución lógica y estructurada.
 
-**¿Por qué es vital esto para una persona profesional en  Ingeniería Industrial?** 
+<img src="imagenes/ProgramarNoEsCodificar.png" alt="Programar No Es Codificar" width="100%">
+
+
+**¿Por qué es vital esto para una persona profesional en  Ingeniería Industrial?** 
 
 Aunque no te dediques al desarrollo de software, la programación estructura tu mente para el análisis de procesos (una habilidad indispensable en la Ingeniería Industrial). La programación te enseña a pensar en flujos de trabajo, manejo de excepciones (¿qué pasa si la máquina falla?) y optimización de recursos. Como ingeniera(o), estas capacidades te permitirán automatizar decisiones operativas y fortalecer tu rol como agente de transformación digital.
 
@@ -46,6 +49,7 @@ Antes de avanzar, vamos a definir el vocabulario esencial que utilizaremos en es
 
 El Pensamiento Computacional es el cimiento sobre el cual se construye cualquier solución tecnológica. Sin este proceso mental, intentar escribir código es como intentar construir un edificio sin planos: el resultado será inestable y propenso a fallas.
 
+<img src="imagenes/PensamientoComputacional.png" alt="PensamientoComputacional" width="100%">
 
 ### **La Inteligencia Artificial y el Programador**
 
@@ -66,7 +70,7 @@ Para diseñar algoritmos exitosos, aplicamos cuatro pasos:
 
 1. **Descomposición:** Romper un problema complejo en partes más manejables.
 
-   - Por ejemplo,  si debes "Optimizar el área de despachos", no atacas todo el problema a la vez. Lo descompones en: recepción de pedidos, picking (recolección), embalaje y carga en camiones.
+   - Por ejemplo,  si debes "Optimizar el área de despachos", no atacas todo el problema a la vez. Lo descompones en: recepción de pedidos, picking (recolección), embalaje y carga en camiones.
 
 2. **Reconocimiento de Patrones:** Identificar similitudes con problemas resueltos anteriormente.
 
@@ -78,16 +82,17 @@ Para diseñar algoritmos exitosos, aplicamos cuatro pasos:
 
 4. **Diseño de Algoritmos:** Crear la serie de pasos para resolver el problema paso a paso.
 
+<img src="imagenes/Los4Pilares.png" alt="Los4Pilares" width="100%">
 
 ## **El Algoritmo: La Receta del Proceso**
 
-Imagina que estás escribiendo el "Procedimiento Estándar de Operación" (SOP) para encender una caldera. No puedes decir "enciéndela con cuidado". Debes decir: 
+Imagina que estás escribiendo el "Procedimiento Estándar de Operación" (SOP) para encender una caldera. No puedes decir "enciéndela con cuidado". Debes decir: 
 
-1. Abra la válvula de gas. 
+1. Abra la válvula de gas. 
 
-2. Verifique la presión. 
+2. Verifique la presión. 
 
-3. Active el piloto 
+3. Active el piloto 
 
 **Eso es un algoritmo**
 
@@ -99,6 +104,7 @@ Un algoritmo productivo debe cumplir características estrictas:
 
 - **Definido (Determinista):** Si ingresamos las mismas entradas (Inputs) mil veces, debemos obtener exactamente la misma salida (Output) mil veces.
 
+<img src="imagenes/QueEsUnAlgoritmo.png" alt="QueEsUnAlgoritmo" width="100%">
 
 ### **El Modelo Entrada - Proceso - Salida (IPO) y el Valor Agregado**
 
@@ -111,3 +117,5 @@ Este modelo es universal tanto en informática como en manufactura. El objetivo 
 | **Salida (Output)**   | Información útil, reportes, alertas, gráficos.                         | Producto terminado, subensamble listo, desperdicio controlado.      |
 
 Como ingenieros, diseñamos algoritmos para que la "Salida" sea información de valor que permita tomar decisiones o controlar el proceso físico.
+
+<img src="imagenes/ModeloIPO.png" alt="ModeloIPO" width="100%">
