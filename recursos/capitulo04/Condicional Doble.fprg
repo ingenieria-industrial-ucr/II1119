@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Condicional Doble"/>
+        <attribute name="authors" value="mauri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-07 04:06:05 "/>
+        <attribute name="created" value="bWF1cmk7VklWT0JPT0s7MjAyNi0wOC0wNzsiMDQ6MDM6MzYgIjsyMzYx"/>
+        <attribute name="edited" value="bWF1cmk7VklWT0JPT0s7MjAyNi0wOC0wNzsiMDQ6MDY6MDUgIjsyOzI0Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="piezaPeso" type="Real" array="False" size=""/>
+            <output expression="&quot;Indique el peso de la pieza&quot;" newline="True"/>
+            <input variable="piezaPeso"/>
+            <if expression="piezaPeso &gt;= 500">
+                <then>
+                    <output expression="&quot;Aprobar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Rechazar&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Sigue con las operaciones regulares&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Condicional M&#250;ltiple"/>
+        <attribute name="authors" value="mauri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-07 08:44:36 "/>
+        <attribute name="created" value="bWF1cmk7VklWT0JPT0s7MjAyNi0wOC0wNzsiMDg6MTk6MjIgIjsyMzY3"/>
+        <attribute name="edited" value="bWF1cmk7VklWT0JPT0s7MjAyNi0wOC0wNzsiMDg6NDQ6MzYgIjsxOzI0Nzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="puntaje" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite el puntaje&quot;" newline="True"/>
+            <input variable="puntaje"/>
+            <comment text="En este &quot;if&quot;, al ejecutar una opci&#243;n verdadera, no sigue ejecutando y va al final de la estructura &quot;if&quot;. Hasta encontrar el &#250;ltimo &quot;else&quot; (esta opci&#243;n es opcional)."/>
+            <if expression="puntaje &gt; 90">
+                <then>
+                    <output expression="&quot;Calidad premium&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="puntaje &gt; 70">
+                        <then>
+                            <output expression="&quot;Calidad est&#225;ndar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <comment text="Este &quot;else&quot; podr&#237;a ser opcional"/>
+                            <output expression="&quot;Calidad inferior&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Sigue con las operaciones regulares&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

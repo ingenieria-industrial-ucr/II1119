@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ejemplo-and"/>
+        <attribute name="authors" value="mauri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-25 01:09:34 "/>
+        <attribute name="created" value="bWF1cmk7VklWT0JPT0s7MjAyNi0wNy0yNTsiMDE6MDM6NTIgIjsyMzU1"/>
+        <attribute name="edited" value="bWF1cmk7VklWT0JPT0s7MjAyNi0wNy0yNTsiMDE6MDk6MzQgIjsxOzI0Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad, dinero" type="Integer" array="False" size=""/>
+            <assign variable="edad" expression="18"/>
+            <assign variable="dinero" expression="10000"/>
+            <if expression="edad &gt;= 18 AND dinero &gt;= 10000">
+                <then>
+                    <output expression="&quot;Nos vamos para de fiesta para la Cali&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Nos quedamos en la casa para ver MovieFlix&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

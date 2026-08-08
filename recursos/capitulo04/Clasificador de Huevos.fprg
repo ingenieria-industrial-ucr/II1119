@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Clasificador de Huevos"/>
+        <attribute name="authors" value="mauri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-07 09:05:24 "/>
+        <attribute name="created" value="bWF1cmk7VklWT0JPT0s7MjAyNi0wOC0wNzsiMDk6MDI6NDAgIjsyMzYw"/>
+        <attribute name="edited" value="bWF1cmk7VklWT0JPT0s7MjAyNi0wOC0wNzsiMDk6MDU6MjQgIjsyOzI0NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="peso" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite el peso:&quot;" newline="True"/>
+            <input variable="peso"/>
+            <if expression="peso &lt; 50">
+                <then>
+                    <output expression="&quot;Peque&#241;o&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="peso &lt; 70">
+                        <then>
+                            <output expression="&quot;Mediano&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Grande&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
